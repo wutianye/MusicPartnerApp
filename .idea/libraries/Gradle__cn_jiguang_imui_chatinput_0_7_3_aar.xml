@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.jiguang.imui:chatinput:0.7.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18e99fe89078e99b552802f7ea4c2d02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18e99fe89078e99b552802f7ea4c2d02/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.jiguang.imui/chatinput/0.7.3/c360eabe746832666ef5e3bc5ffd056ca288935d/chatinput-0.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.jiguang.imui/chatinput/0.7.3/150751ea0fcc4199167dc007537432e0e06872e1/chatinput-0.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

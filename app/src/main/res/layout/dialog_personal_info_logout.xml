@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_item_btn"
+        android:gravity="center"
+        android:text="@string/dialog_personalInfo_logout_hint"
+        android:textColor="@color/gray_dd"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dd" />
+
+    <Button
+        android:id="@+id/dialog_personalInfo_logout_btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_item_btn"
+        android:gravity="center"
+        android:text="@string/dialog_personalInfo_logout_logout"
+        android:textColor="@color/app_color"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dd" />
+
+    <Button
+        android:id="@+id/dialog_personalInfo_logout_btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_item_btn"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/gray_8f"
+        android:textSize="16sp" />
+
+</LinearLayout>

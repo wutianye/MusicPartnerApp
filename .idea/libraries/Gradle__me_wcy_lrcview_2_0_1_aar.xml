@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: me.wcy:lrcview:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b92a072370b1ce6f0b9d34c24b68770c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b92a072370b1ce6f0b9d34c24b68770c/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.wcy/lrcview/2.0.1/73e3b1d4d713407f758bb5c821d3e5fddfa9d8fe/lrcview-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.wcy/lrcview/2.0.1/1c4ab361b78dd82e3af6691a4fd42068aa8c0861/lrcview-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

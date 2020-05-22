@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ChatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/chat_tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/back"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/chat_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="小飞侠"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/chat_iv_more"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/more" />
+    </RelativeLayout>
+
+    <cn.jiguang.imui.messages.ptr.PullToRefreshLayout
+        android:id="@+id/chat_pullToRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:PtrCloseDuration="300"
+        app:PtrCloseHeaderDuration="2000"
+        app:PtrKeepHeaderWhenRefresh="true"
+        app:PtrPullToRefresh="true"
+        app:PtrRatioHeightToRefresh="1.2"
+        app:PtrResistance="1.2">
+
+        <cn.jiguang.imui.messages.MessageList
+            android:id="@+id/chat_msg_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_dd"
+            android:paddingTop="10dp"
+            app:avatarHeight="50dp"
+            app:avatarRadius="30dp"
+            app:avatarWidth="50dp"
+            app:bubbleMaxWidth="0.70"
+            app:dateTextSize="12sp"
+            app:receiveBubbleColor="@color/white"
+            app:receiveBubblePaddingLeft="20dp"
+            app:receiveBubblePaddingRight="10dp"
+            app:receiveTextColor="@color/black"
+            app:receiveTextSize="16sp"
+            app:sendBubbleColor="@color/white"
+            app:sendBubblePaddingLeft="10dp"
+            app:sendBubblePaddingRight="20dp"
+            app:sendTextColor="@color/black"
+            app:sendTextSize="16sp" />
+    </cn.jiguang.imui.messages.ptr.PullToRefreshLayout>
+
+    <cn.jiguang.imui.chatinput.ChatInputView
+        android:id="@+id/chat_chatInputView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        app:cameraBtnIcon="@drawable/aurora_menuitem_camera"
+        app:inputCursorDrawable="@drawable/aurora_edittext_cursor_bg"
+        app:inputEditTextBg="@drawable/aurora_edittext_bg"
+        app:inputHint="请在此输入要发送的文本"
+        app:photoBtnIcon="@drawable/aurora_menuitem_photo"
+        app:sendBtnIcon="@drawable/aurora_menuitem_send"
+        app:voiceBtnIcon="@drawable/aurora_menuitem_mic" />
+</LinearLayout>

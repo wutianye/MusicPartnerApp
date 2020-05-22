@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.upload_work.UploadWorkPhotoFragment">
+
+    <ImageView
+        android:id="@+id/item_uploadWork_imageList_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/gray_cc" />
+
+    <View
+        android:id="@+id/item_uploadWork_imageList_iv_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/shadow"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/item_uploadWork_imageList_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:theme="@style/WhiteCheckBox" />
+</RelativeLayout>

@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">音乐合伙人</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+
+    <!--登录页面-->
+    <string name="login_title">BCMusic</string>
+    <string name="login_username_hint">输入用户名/手机号</string>
+    <string name="login_pwd_hint">输入密码</string>
+    <string name="login_text">登 &#160;&#160;陆</string>
+    <string name="login_forget_pwd">忘 记 密 码</string>
+    <string name="login_register_now">立 即 注 册</string>
+
+    <!--注册页面-->
+    <string name="register_title">注册</string>
+    <string name="register_input_phone">输入手机号</string>
+    <string name="register_input_pwd">输入密码</string>
+    <string name="register_input_verification_code">输入验证码</string>
+    <string name="register_get_verification_code">获取验证码</string>
+    <string name="register_next_step">下一步</string>
+    <string name="register_field_required">请填写此字段</string>
+    <string name="register_password_invalid">密码格式不正确</string>
+
+    <!--完善资料页面-->
+    <string name="completeInfo_back">上一步</string>
+    <string name="completeInfo_title">完善资料</string>
+    <string name="completeInfo_cancel">取消</string>
+    <string name="completeInfo_male">男</string>
+    <string name="completeInfo_female">女</string>
+    <string name="completeInfo_nick">昵称</string>
+    <string name="completeInfo_birthday">出生年月（如1997.10.1)</string>
+    <string name="completeInfo_complete_reg">完成注册</string>
+
+    <!--播放页面-->
+    <string name="play_publish_comment">发表</string>
+    <string name="play_comment">评论</string>
+
+    <string-array name="home_titles">
+        <item>首页</item>
+        <item>消息</item>
+        <item>上传</item>
+        <item>我的</item>
+    </string-array>
+
+    <!--首页筛选项-->
+    <string-array name="home_filter_title">
+        <item>性别</item>
+        <item>距离</item>
+        <item>年龄</item>
+    </string-array>
+
+    <string name="home_filter_title_gender">
+        性别
+    </string>
+
+    <string-array name="home_filter_gender">
+
+        <item>男</item>
+        <item>女</item>
+        <item>不限</item>
+    </string-array>
+
+    <string-array name="home_filter_distance">
+        <item>同城</item>
+        <item>由近到远</item>
+        <item>不限</item>
+    </string-array>
+
+    <string-array name="home_filter_age">
+        <item>0–20</item>
+        <item>20–35</item>
+        <item>35–55</item>
+        <item>不限</item>
+    </string-array>
+
+    <string-array name="message_title">
+        <item>通知</item>
+        <item>消息</item>
+    </string-array>
+
+    <string-array name="uploadWork_tab_title">
+        <item>音乐</item>
+        <item>视频</item>
+        <item>图片</item>
+    </string-array>
+
+    <string-array name="me_tab_title">
+        <item>动态</item>
+        <item>作品集</item>
+        <item>收藏</item>
+    </string-array>
+
+    <string name="home_team_show">团队展</string>
+    <string name="home_title">合伙人区</string>
+    <string name="home_menu_praise">赞</string>
+    <string name="home_menu_follow">关注</string>
+
+    <string name="me_title">我</string>
+    <string name="me_setting">设置</string>
+    <string name="play_song_introduction">歌曲介绍</string>
+    <string name="message_reply">回复</string>
+
+    <string name="uploadWork_addFile">添加文件</string>
+    <string name="chatList_delete">删除</string>
+    <string name="uploadWork_title">上传作品</string>
+    <string name="uploadWork_close">关闭</string>
+    <string name="uploadWork_hint">只支持MP3/MP4/JPG/TXT格式</string>
+    <string name="uploadWork_startUpload">开始上传</string>
+    <string name="uploadWork_fileList_empty">还没有添加任何文件</string>
+    <string name="uploadWork_clickChooseCover">点 击 选 择 封 面</string>
+    <string name="fillInformation_chooseFile">选择文件</string>
+    <string name="fillInformation_title">信息</string>
+    <string name="fillInformation_close">关闭</string>
+    <string name="fillInformation_name_hint">名称</string>
+    <string name="fillInformation_tag_hint">逗号，分隔，标签</string>
+    <string name="fillInformation_introduction_hint">简介</string>
+
+    <string name="test_content">
+        滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。
+        滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。
+        滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。
+    </string>
+
+    <string name="test_content1">
+        滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。
+    </string>
+
+    <string name="expand_string">more</string>
+    <string name="collapsed_string">less</string>
+    <string name="play_dialog_addToFolder_newFolder">新建文件夹</string>
+    <string name="play_download">缓存</string>
+    <string name="play_downloadDialog_startDownload">开始下载</string>
+    <string name="play_dialog_share_chat">私信</string>
+    <string name="play_dialog_share_weibo">微博</string>
+    <string name="play_dialog_share_wechat">微信</string>
+    <string name="play_dialog_share_wechat_friends">微信朋友圈</string>
+    <string name="play_dialog_share_qq">QQ</string>
+    <string name="play_dialog_share_qq_space">QQ空间</string>
+    <string name="setting_title">设置</string>
+    <string name="setting_network_hint">使用2G/3G/4G网络播放</string>
+    <string name="setting_allowWorkPush">接受作品推送通知</string>
+    <string name="setting_allowWorkBeCommented">作品允许评论</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_cleanCache">清理缓存</string>
+    <string name="setting_aboutUs">关于我们</string>
+    <string name="setting_share">分享</string>
+    <string name="setting_dialog_cleanCache_title">清理缓存</string>
+    <string name="setting_dialog_cleanCache_yes">是</string>
+    <string name="setting_dialog_cleanCache_no">否</string>
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_input_hint">请输入您的反馈意见...</string>
+    <string name="play_unfollow">+关注</string>
+    <string name="play_follow">已关注</string>
+    <string name="myInfo_headSetting">头像设置</string>
+    <string name="myInfo_nickname">昵称</string>
+    <string name="myInfo_gender">性别</string>
+    <string name="myInfo_label">标签</string>
+    <string name="myInfo_personalitySignature">个性签名</string>
+    <string name="myInfo_bindingPhone">绑定手机</string>
+    <string name="myInfo_socialAccount">社交账号</string>
+    <string name="dialog_personalInfo_changeHeadImg_album">相册</string>
+    <string name="dialog_personalInfo_changeHeadImg_takePhoto">拍照</string>
+    <string name="dialog_personalInfo_bindingSocialAccount_title">社交账号绑定</string>
+    <string name="dialog_personalInfo_logout_hint">退出登录将会清空搜索数据</string>
+    <string name="dialog_personalInfo_logout_logout">退出登录</string>
+    <string name="dialog_chatMore_report">举报</string>
+    <string name="dialog_chatMore_shieldingThisPerson">屏蔽此人消息</string>
+    <string name="dialog_chatMore_cancelShieldingThisPerson">取消屏蔽</string>
+    <string name="report_reportReason">举报原因</string>
+    <string name="report_illegality">违法</string>
+    <string name="report_violenceAndPornography">暴力，黄色信息</string>
+    <string name="report_advertisement">广告，恶意营销，无效信息</string>
+    <string name="report_othe">其他</string>
+    <string name="myInfo_logout">退出登录</string>
+
+
+    <string name="media_url_mp3">http://storage.googleapis.com/exoplayer-test-media-0/play.mp3</string>
+</resources>
